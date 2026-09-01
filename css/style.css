@@ -1385,12 +1385,19 @@ body.modal-open {
 }
 
 @media (max-width: 600px) {
+  .detail-modal__dialog{
+    padding-right:0;
+    padding-bottom: 0;
+  }
+  .detail-modal__layout{
+    padding-bottom: 0;
+  }
   .detail-modal__header {
     padding: 10px 12px;
   }
 
   .detail-modal__contact {
-    font-size: 13px;
+    font-size: 11px;
     line-height: 1.4;
     font-weight: bold;
     color: #000;
