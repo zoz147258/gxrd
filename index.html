@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>智慧广西人大市县版块应用介绍</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+
+  <body>
+
+    <main class="page-home">
+
+      <header class="home-header">
+
+        <div class="home-header__bg" aria-hidden="true">
+          <img src="assets/images/home-hero-bg-new.png" alt="" />
+        </div>
+
+        <div class="home-header__inner">
+          <div class="home-brand">
+            <img class="home-brand__img" src="assets/images/logo.png" alt="智慧广西人大" />
+          </div>
+          <h1 class="home-header__title">市县板块应用介绍</h1>
+        </div>
+
+      </header>
+
+
+
+      <div class="home-body">
+
+        <section class="home-panel">
+
+          <h2 class="home-panel__head">
+
+            <span class="home-panel__mark" aria-hidden="true"></span>
+
+            全部
+
+          </h2>
+
+          <div class="card-grid" id="card-grid"></div>
+
+        </section>
+
+      </div>
+
+    </main>
+
+    <div class="detail-modal" id="detail-modal" aria-hidden="true">
+      <div class="detail-modal__overlay" id="detail-modal-overlay"></div>
+      <div class="detail-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="detail-modal-title">
+        <header class="detail-modal__header">
+          <p class="detail-modal__contact" id="detail-modal-contact"></p>
+          <button type="button" class="detail-modal__close" id="detail-modal-close" aria-label="关闭">×</button>
+        </header>
+        <div class="detail-modal__layout">
+          <aside class="detail-tabs detail-tabs--modal" id="modal-detail-tabs"></aside>
+          <div class="doc-preview">
+            <aside class="doc-preview__thumbs" id="modal-doc-thumbs"></aside>
+            <div class="doc-preview__main">
+              <div class="doc-preview__viewport" id="modal-doc-viewport"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/pdfjs/pdf.min.js"></script>
+    <script src="js/data.js"></script>
+
+    <script src="js/main.js"></script>
+
+  </body>
+
+</html>
+
